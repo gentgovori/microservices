@@ -61,3 +61,4 @@ C:\Users\gent.govori\Desktop\microservices\PlatformService\obj\Debug\net6.0\Plat
 C:\Users\gent.govori\Desktop\microservices\PlatformService\obj\Debug\net6.0\ref\PlatformService.dll
 C:\Users\gent.govori\Desktop\microservices\PlatformService\obj\Debug\net6.0\PlatformService.pdb
 C:\Users\gent.govori\Desktop\microservices\PlatformService\obj\Debug\net6.0\PlatformService.genruntimeconfig.cache
+C:\Users\gent.govori\Desktop\microservices\PlatformService\bin\Debug\net6.0\appsettings.Production.json
