@@ -33,3 +33,5 @@ C:\Users\gent.govori\Desktop\microservices\CommandsService\obj\Debug\net6.0\Comm
 C:\Users\gent.govori\Desktop\microservices\CommandsService\obj\Debug\net6.0\ref\CommandsService.dll
 C:\Users\gent.govori\Desktop\microservices\CommandsService\obj\Debug\net6.0\CommandsService.pdb
 C:\Users\gent.govori\Desktop\microservices\CommandsService\obj\Debug\net6.0\CommandsService.genruntimeconfig.cache
+C:\Users\gent.govori\Desktop\microservices\CommandsService\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\gent.govori\Desktop\microservices\CommandsService\bin\Debug\net6.0\RabbitMQ.Client.dll

@@ -8,9 +8,12 @@ namespace CommandsService.Profiles
     {
         public CommandsProfile()
         {
-            CreateMap<Platform,Platform>();
+            CreateMap<Platform,PlatformReadDto>();
             CreateMap<CommandCreateDto,Command>();
             CreateMap<Command,CommandReadDto>();
+            CreateMap<PlatformPublishedDto,Platform>()
+            .ForMember(destinationMember=> destinationMember.ExternalID,
+                        opt => opt.MapFrom(sourceMember=>sourceMember.Id));
         }
             
     }
