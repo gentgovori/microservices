@@ -11,6 +11,7 @@ namespace PlatformService.Profiles
             //Source -> Target
             CreateMap<Platform, PlatformReadDto>(); //per lexim
             CreateMap<PlatformCreateDto,Platform>(); // per krijim
+            CreateMap<PlatformReadDto,PlatformPublishedDto>(); // per message queue
         }
     }
 }
