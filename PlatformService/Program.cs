@@ -7,16 +7,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
-if (builder.Environment.IsProduction())
-{
-    Console.WriteLine("Using SQL Server");
-    builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("PlatformsConn")));
-}
-else
-{
+// if (builder.Environment.IsProduction())
+// {
+//     Console.WriteLine("Using SQL Server");
+//     builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("PlatformsConn")));
+// }
+// else
+// {
     Console.WriteLine("Using InMemDb");
     builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
-}
+//}
 
 builder.Services.AddScoped<IPlatformRepo, PlatformRepo>();
 builder.Services.AddSingleton<IMessageBusClient, MessageBusClient>();
